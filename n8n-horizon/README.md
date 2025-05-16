@@ -1,5 +1,5 @@
 # Deploy n8n on local
-This guide will help you set up n8n locally using Docker and expose it to the internet using ngrok.
+This guide will help you set up n8n locally using Docker and expose it to the internet using ngrok
 
 ## Prerequisites
 - Docker installed on your system

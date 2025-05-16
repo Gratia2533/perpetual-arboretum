@@ -42,7 +42,7 @@ docker run -it --rm \
   -e GENERIC_TIMEZONE="Asia/Taipei" \ #Set timezone
   -e TZ="Asia/Taipei" \ #Set timezone
   -v ~/.n8n \ #Data storage location
-  n8nio/n8n
+  n8nio/n8n:<version> #Default is latest
 ```
 
 ## Access n8n
@@ -53,9 +53,6 @@ docker run -it --rm \
 1. The `-v ~/.n8n` volume mount ensures your workflows and credentials persist between container restarts
 2. Make sure to replace `<ngrok_url>` with your actual ngrok forwarding URL
 3. The container will be removed when stopped due to the `--rm` flag. Remove this flag if you want to keep the container
-4. Default credentials for first login:
-   - Email: admin@example.com
-   - Password: password
 
 ## Troubleshooting
 1. If you can't access n8n locally:

@@ -1,4 +1,4 @@
-# n8n-daily-report-workflow
+# n8n-slack2sheet-workflow
 
 ![Workflow Overview](img_src/image.png)
 
